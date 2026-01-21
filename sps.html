@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turan SPS - Fresh Beverages from Georgia</title>
+    <link rel="stylesheet" href="sps.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn" id="langBtn">EN ▼</button>
+        <div class="lang-dropdown" id="langDropdown">
+            <a href="#" class="lang-option" data-lang="en">English</a>
+            <a href="#" class="lang-option" data-lang="az">Azərbaycan</a>
+            <a href="#" class="lang-option" data-lang="ru">Русский</a>
+            <a href="#" class="lang-option" data-lang="ka">ქართული</a>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="SPS-img/SPS_Logo_png/Turan-SPS.png" alt="Turan SPS Logo" class="logo">
+                <div class="brand-name">
+                    <span class="turan">Turan</span>
+                    <span class="sps">
+                        <span class="s-yellow">S</span>
+                        <span class="p-white">P</span>
+                        <span class="s-yellow">S</span>
+                    </span>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <a href="#home" class="nav-link" data-translate="nav_home">Home</a>
+                <a href="#products" class="nav-link" data-translate="nav_products">Products</a>
+                <a href="#about" class="nav-link" data-translate="nav_about">About</a>
+                <a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Layered Parallax Effect -->
+    <section class="hero-section" id="home">
+        <div class="parallax-container" id="parallaxContainer">
+            <div class="parallax-layer sky-layer" data-depth="0.1">
+                <img src="SPS-img/Layers_png/sky.png" alt="Sky Background" class="layer-image">
+            </div>
+            <div class="parallax-layer mountains-layer" data-depth="0.3">
+                <img src="SPS-img/Layers_png/mountains.png" alt="Mountains" class="layer-image">
+            </div>
+            <div class="parallax-layer trees-layer" data-depth="0.5">
+                <img src="SPS-img/Layers_png/trees.png" alt="Trees" class="layer-image">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title" data-translate="hero_title">Fresh From Nature</h1>
+                <p class="hero-subtitle" data-translate="hero_subtitle">Premium Georgian Beverages with Natural Fruit Essence</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="main-content" id="products">
+        <!-- Chito Gvrito Brand Banner with Text -->
+        <section class="brand-banner-section">
+            <!-- Banner Image -->
+            <div class="brand-banner-wrapper">
+                <img src="SPS-img/ChitoGvrito_png/Chito_baner.png" alt="Chito Gvrito Banner" class="brand-banner-image">
+            </div>
+            
+            <!-- Banner Text Below -->
+            <div class="banner-text-wrapper">
+                <div class="banner-text">
+                    <h2 data-translate="banner_title">Turan SPS</h2>
+                    <p data-translate="banner_text">Make every day refreshing with natural taste and healthy fruit juices, therapeutic mineral and spring waters, delicious lemonades.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chito Gvrito Products Showcase -->
+        <section class="products-showcase">
+            <div class="showcase-header">
+                <h2 class="showcase-title" data-translate="showcase_title">Chito Gvrito</h2>
+                <p class="showcase-subtitle" data-translate="showcase_subtitle">Original Georgian lemonade prepared with natural flavors and traditional recipes.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1: Duchess Lemonade -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/ChitoGvrito_png/Chito_armud.png" alt="Duchess Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product1_name">Chito Gvrito Duchess Lemonade</h3>
+                            <p class="product-description" data-translate="product1_desc">A carbonated drink rich with pear (duchess) flavor, natural taste and freshness that gives vitality in every sip. Bottle capacity: 0.5L. Packaging: Box (12 × 0.5L).</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Tarragon Lemonade -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/ChitoGvrito_png/Chito_tarxun.png" alt="Tarragon Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product2_name">Chito Gvrito Tarragon Lemonade</h3>
+                            <p class="product-description" data-translate="product2_desc">A drink that gives unforgettable freshness in every sip with natural tarragon flavor and carbonated freshness. Bottle capacity: 0.5L. Packaging: Box (12 × 0.5L).</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_herbal">Herbal</span>
+                                <span class="product-tag" data-translate="tag_aromatic">Aromatic</span>
+                                <span class="product-tag" data-translate="tag_traditional">Traditional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IRIB Brand Section -->
+        <section class="brand-banner-section">
+            <!-- Banner Image -->
+            <div class="brand-banner-wrapper">
+                <img src="SPS-img/IRIB_png/IRIB_baner.png" alt="IRIB Banner" class="brand-banner-image">
+            </div>
+            
+            <!-- Banner Text Below -->
+            <div class="banner-text-wrapper">
+                <div class="banner-text">
+                    <h2 data-translate="irib_title">IRIB Premium Juices</h2>
+                    <p data-translate="irib_text">IRIB premium juices are fruit juices produced in Dagestan, distinguished by their natural taste and high quality. IRIB products, prepared with modern production technologies, combine freshness and benefits. IRIB juices are presented to customers in Azerbaijan and are an ideal choice for your daily use.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- IRIB Products Showcase -->
+        <section class="products-showcase">
+            <div class="showcase-header">
+                <h2 class="showcase-title" data-translate="irib_showcase_title">IRIB Juices & Nectars</h2>
+                <p class="showcase-subtitle" data-translate="irib_showcase_subtitle">High-quality natural juices and nectars made from ecologically clean fruits</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 3: Apple Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_alma.png" alt="Apple Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product3_name">Apple Juice</h3>
+                            <p class="product-description" data-translate="product3_desc">A perfect choice where natural apple taste, freshness and quality come together.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4: Pineapple Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_ananas.png" alt="Pineapple Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product4_name">Pineapple Juice</h3>
+                            <p class="product-description" data-translate="product4_desc">Adds freshness to your day with 100% natural composition and exotic taste.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5: Cherry Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_gilas.png" alt="Cherry Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product5_name">Cherry Juice</h3>
+                            <p class="product-description" data-translate="product5_desc">Creates a real taste sensation in every sip with rich cherry taste and freshness.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6: Multifruit Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_multi.png" alt="Multifruit Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product6_name">Multifruit Juice</h3>
+                            <p class="product-description" data-translate="product6_desc">Presents rich taste and freshness together with the harmony of various fruits.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7: Orange Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_portaqal.png" alt="Orange Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product7_name">Orange Juice</h3>
+                            <p class="product-description" data-translate="product7_desc">Adds freshness and energy to your day with 100% natural orange taste.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8: Peach Juice -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <div class="product-image-container">
+                            <img src="SPS-img/IRIB_png/IRIB_saftali.png" alt="Peach Juice" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="product8_name">Peach Juice</h3>
+                            <p class="product-description" data-translate="product8_desc">Brings together soft taste and freshness with 100% natural peach taste.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SAIRME Water Brand Section -->
+        <section class="brand-banner-section">
+            <!-- Banner Image -->
+            <div class="brand-banner-wrapper">
+                <img src="SPS-img/SAIRME_Water_png/Sairme_m_q_baner.png" alt="SAIRME Water Banner" class="brand-banner-image">
+            </div>
+            
+            <!-- Banner Text Below -->
+            <div class="banner-text-wrapper">
+                <div class="banner-text">
+                    <h2 data-translate="sairme_water_title">SAIRME Mineral Waters</h2>
+                    <p data-translate="sairme_water_text">Sairme Mineral Waters, in Georgia's Imereti region, are waters that form in the deep layers of the earth, naturally enriched with carbon dioxide, and have a balanced composition with beneficial minerals like calcium, magnesium, sodium. Sairme water, rich with natural minerals and lightly carbonated, is an ideal choice for both daily drinking and a healthy lifestyle. We also present this unique mineral water to our customers in Azerbaijan.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SAIRME Water Products Showcase -->
+                <section class="products-showcase">
+                    <div class="showcase-header">
+                        <h2 class="showcase-title" data-translate="sairme_water_showcase_title">SAIRME Waters</h2>
+                        <p class="showcase-subtitle" data-translate="sairme_water_showcase_subtitle">Pure natural waters from the legendary Sairme springs</p>
+                    </div>
+
+                    <div class="products-grid">
+                        <!-- Product: Spring Water -->
+                        <div class="product-item">
+                            <div class="product-layout">
+                                <!-- Product Image -->
+                                <div class="product-image-container">
+                                    <img src="SPS-img/SAIRME_Water_png/Sairme_q.png" alt="Sairme Spring Water" class="product-image">
+                                </div>
+                                <!-- Product Details -->
+                                <div class="product-details">
+                                    <h3 class="product-name" data-translate="sairme_spring_name">Spring Water</h3>
+                                    <p class="product-description" data-translate="sairme_spring_desc">
+                                        Waters extracted from the deep layers of Georgia's famous therapeutic Sairme region, rich with minerals and preserving their natural freshness. Gives health and energy in every sip. Bottle types: Plastic: 2L, 1L, 0.5L; Glass: 0.2L, 0.5L; Premium glass: 0.5L.
+                                    </p>
+                                    <div class="product-tags">
+                                        <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                        <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product: Mineral Water -->
+                        <div class="product-item">
+                            <div class="product-layout">
+                                <!-- Product Image -->
+                                <div class="product-image-container">
+                                    <img src="SPS-img/SAIRME_Water_png/Sairme_m.png" alt="Sairme Mineral Water" class="product-image">
+                                </div>
+                                <!-- Product Details -->
+                                <div class="product-details">
+                                    <h3 class="product-name" data-translate="sairme_mineral_name">Mineral Water</h3>
+                                    <p class="product-description" data-translate="sairme_mineral_desc">
+                                        Sairme mineral waters are known for their natural composition, rich minerals and high quality, considered beneficial for the organism. We present these pure and refreshing mineral waters to our customers in Azerbaijan with the highest quality. Bottle types: Plastic: 2L, 1L, 0.5L; Glass: 0.2L, 0.5L; Premium glass: 0.5L.
+                                    </p>
+                                    <div class="product-tags">
+                                        <span class="product-tag" data-translate="tag_natural">Natural</span>
+                                        <span class="product-tag" data-translate="tag_herbal">Herbal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- New Segment 1: Image-Only Spring Water Group -->
+                        <div class="product-item image-only">
+                            <div class="product-layout">
+                                <div class="product-image-container">
+                                    <img src="SPS-img/SAIRME_Water_png/Sairme_6_q.png" alt="Sairme Spring Water Group" class="product-image large-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- New Segment 2: Image-Only Mineral Water Group -->
+                        <div class="product-item image-only">
+                            <div class="product-layout">
+                                <div class="product-image-container">
+                                    <img src="SPS-img/SAIRME_Water_png/Sairme_6_m.png" alt="Sairme Mineral Water Group" class="product-image large-image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+        <!-- SAIRME Lemonade Brand Section -->
+        <section class="brand-banner-section">
+            <!-- Banner Image -->
+            <div class="brand-banner-wrapper">
+                <img src="SPS-img/SAIRME_Lemonade_png/SairmeL_baner.png" alt="SAIRME Lemonade Banner" class="brand-banner-image">
+            </div>
+            
+            <!-- Banner Text Below -->
+            <div class="banner-text-wrapper">
+                <div class="banner-text">
+                    <h2 data-translate="sairme_lemonade_title">SAIRME Lemonade</h2>
+                    <p data-translate="sairme_lemonade_text">The company has been producing SAIRME LEMONADE since 2017. Prepared with high-quality Georgian water, offered in the budget segment.</p>
+                </div>
+            </div>
+        </section>
+                    
+        <!-- SAIRME Lemonade Products Showcase -->
+        <section class="products-showcase">
+            <div class="showcase-header">
+                <h2 class="showcase-title" data-translate="sairme_lemonade_showcase_title">SAIRME Lemonades</h2>
+                <p class="showcase-subtitle" data-translate="sairme_lemonade_showcase_subtitle">Natural mineral-based lemonades from Georgia's clean Sairme springs. Available in 0.5L glass bottles.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Flavor: Pear -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <!-- Product Image -->
+                        <div class="product-image-container">
+                            <img src="SPS-img/SAIRME_Lemonade_png/sl_armud.png" alt="Pear Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="sairme_pear_name">Pear Lemonade</h3>
+                            <p class="product-description" data-translate="sairme_pear_desc">Delicate pear taste with natural mineral water.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flavor: Feijoa -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <!-- Product Image -->
+                        <div class="product-image-container">
+                            <img src="SPS-img/SAIRME_Lemonade_png/sl_feyxua.png" alt="Feijoa Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="sairme_feijoa_name">Feijoa Lemonade</h3>
+                            <p class="product-description" data-translate="sairme_feijoa_desc">Exotic feijoa taste with a refreshing twist.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flavor: Tarragon -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <!-- Product Image -->
+                        <div class="product-image-container">
+                            <img src="SPS-img/SAIRME_Lemonade_png/sl_tarxun.png" alt="Tarragon Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="sairme_tarragon_name">Tarragon Lemonade</h3>
+                            <p class="product-description" data-translate="sairme_tarragon_desc">Herbal tarragon taste for a unique experience.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_herbal">Herbal</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flavor: Grape -->
+                <div class="product-item">
+                    <div class="product-layout">
+                        <!-- Product Image -->
+                        <div class="product-image-container">
+                            <img src="SPS-img/SAIRME_Lemonade_png/sl_uzum.png" alt="Grape Lemonade" class="product-image">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name" data-translate="sairme_grape_name">Grape Lemonade</h3>
+                            <p class="product-description" data-translate="sairme_grape_desc">Sweet grape essence with bright freshness.</p>
+                            <div class="product-tags">
+                                <span class="product-tag" data-translate="tag_fruity">Fruity</span>
+                                <span class="product-tag" data-translate="tag_refreshing">Refreshing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <h2 data-translate="about_heading">About Turan SPS</h2>
+                <p data-translate="about_text">Turan SPS is a leading company founded in 2024 and operating in the field of distribution of quality beverages and water products in Azerbaijan. As the official distributor of Georgia's Boom Group company, our company has exclusive sales rights for the most popular and beloved Chito Gvrito lemonades in our country. In addition, Turan SPS collaborates with the manufacturer of Georgia's famous Sairme therapeutic waters and is the only official distributor of this water in Azerbaijan. Sairme waters, rich with beneficial minerals for the organism, providing natural freshness, are presented to our customers in premium quality. Our company is also the official distributor of premium fruit juices from IRIB Group located in the Dagestan Autonomous Republic of Russia. IRIB juices are distinguished by natural fruit taste and high quality standards, presented to our customers in Azerbaijan thanks to Turan SPS. As Turan SPS, our goal is not only to provide products to our customers, but also to ensure natural taste, freshness and health in every sip. By bringing together the highest quality lemonades, fruit juices, therapeutic and natural spring waters in Azerbaijan, we strive to make every day more delicious and refreshing.</p>
+            </div>
+        </section>
+
+
+         <!-- Contact & Order Section -->
+
+        <section class="contact-section" id="contact">
+            <div class="contact-content">
+                <h2 data-translate="contact_heading">Contact & Order</h2>
+                <p class="contact-note" data-translate="contact_note">
+                    Contact us to place an order or get more information.
+                </p>
+
+                <div class="contact-info">
+                    <p data-translate="contact_phone">Phone / WhatsApp: +994 55 664 24 99</p>
+                    <p data-translate="contact_email">Email: turansps.office@gmail.com</p>
+                </div>
+
+                <!-- Social Media Buttons -->
+                <div class="social-buttons">
+                    <a href="https://www.instagram.com/turan_sps/" class="social-btn instagram" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61585589826672" class="social-btn facebook" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com/@turansps" class="social-btn tiktok" target="_blank">TikTok</a>
+                </div>
+
+                <form 
+                    action="https://formsubmit.co/ajax/turansps.office@gmail.com"
+                    method="POST"
+                    class="contact-form"
+                    id="contactForm"
+                >
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Email" 
+                        required
+                    >
+
+                    <textarea 
+                        name="message" 
+                        placeholder="Text / Message" 
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="send-btn" data-translate="submit_button">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ✅ SUCCESS TOAST MESSAGE -->
+        <div class="toast-message" id="toastMessage">
+            Message has been sent
+        </div>
+
+        <!-- ✅ JS (handles sending + toast display) -->
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("contactForm");
+            const toast = document.getElementById("toastMessage");
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // Show toast
+                        toast.classList.add("show");
+
+                        // Hide toast after 2 seconds
+                        setTimeout(() => {
+                            toast.classList.remove("show");
+                        }, 2000);
+
+                        // Reset form
+                        form.reset();
+                    } else {
+                        alert("Message could not be sent.");
+                    }
+                })
+                .catch(() => {
+                    alert("Network error. Please try again.");
+                });
+            });
+        });
+        </script>
+
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="footer-brand">Turan SPS</div>
+                <p data-translate="footer_tagline">Fresh Taste of Georgia</p>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link" data-translate="footer_story">Our Story</a>
+                <a href="#products" class="footer-link" data-translate="footer_products">Products</a>
+                <a href="#" class="footer-link" data-translate="footer_where">Where to Buy</a>
+                <a href="#contact" class="footer-link" data-translate="footer_contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Turan SPS. <span data-translate="footer_copyright">Taste the freshness of Georgia.</span></p>
+        </div>
+    </footer>
+
+    <script>
+
+        // Language translations
+        const translations = {
+            en: {
+                nav_home: "Home",
+                nav_products: "Products",
+                nav_about: "About",
+                nav_contact: "Contact",
+                hero_title: "Fresh From Nature",
+                hero_subtitle: "Premium Georgian Beverages with Natural Fruit Essence",
+                banner_title: "Turan SPS",
+                banner_text: "Make every day refreshing with natural taste and healthy fruit juices, therapeutic mineral and spring waters, delicious lemonades.",
+                showcase_title: "Chito Gvrito",
+                showcase_subtitle: "Original Georgian lemonade prepared with natural flavors and traditional recipes",
+                product1_name: "Chito Gvrito Duchess Lemonade",
+                product1_desc: "A carbonated drink rich with pear (duchess) flavor, natural taste and freshness that gives vitality in every sip. Bottle capacity: 0.5L. Packaging: Box (12 × 0.5L).",
+                product2_name: "Chito Gvrito Tarragon Lemonade",
+                product2_desc: "A drink that gives unforgettable freshness in every sip with natural tarragon flavor and carbonated freshness. Bottle capacity: 0.5L. Packaging: Box (12 × 0.5L).",
+                tag_natural: "Natural",
+                tag_refreshing: "Refreshing",
+                tag_fruity: "Fruity",
+                tag_herbal: "Herbal",
+                tag_aromatic: "Aromatic",
+                tag_traditional: "Traditional",
+                irib_title: "IRIB Premium Juices",
+                irib_text: "IRIB premium juices are fruit juices produced in Dagestan, distinguished by their natural taste and high quality. IRIB products, prepared with modern production technologies, combine freshness and benefits. IRIB juices are presented to customers in Azerbaijan and are an ideal choice for your daily use.",
+                irib_showcase_title: "IRIB Juices & Nectars",
+                irib_showcase_subtitle: "High-quality natural juices and nectars made from ecologically clean fruits",
+                product3_name: "Apple Juice",
+                product3_desc: "A perfect choice where natural apple taste, freshness and quality come together.",
+                product4_name: "Pineapple Juice",
+                product4_desc: "Adds freshness to your day with 100% natural composition and exotic taste.",
+                product5_name: "Cherry Juice",
+                product5_desc: "Creates a real taste sensation in every sip with rich cherry taste and freshness.",
+                product6_name: "Multi Fruit Juice",
+                product6_desc: "Presents rich taste and freshness together with the harmony of various fruits.",
+                product7_name: "Orange Juice",
+                product7_desc: "Adds freshness and energy to your day with 100% natural orange taste.",
+                product8_name: "Peach Juice",
+                product8_desc: "Brings together soft taste and freshness with 100% natural peach taste.",
+                sairme_lemonade_title: "SAIRME Lemonade",
+                sairme_lemonade_text: "The company has been producing SAIRME LEMONADE since 2017. Prepared with high-quality Georgian water, offered in the budget segment.",
+                sairme_lemonade_showcase_title: "SAIRME Lemonades",
+                sairme_lemonade_showcase_subtitle: "Natural mineral-based lemonades from Georgia's clean Sairme springs. Available in 0.5L glass bottles.",
+                sairme_pear_name: "Pear Lemonade",
+                sairme_pear_desc: "Delicate pear taste with natural mineral water.",
+                sairme_feijoa_name: "Feijoa Lemonade",
+                sairme_feijoa_desc: "Exotic feijoa taste with a refreshing twist.",
+                sairme_tarragon_name: "Tarragon Lemonade",
+                sairme_tarragon_desc: "Herbal tarragon taste for a unique experience.",
+                sairme_grape_name: "Grape Lemonade",
+                sairme_grape_desc: "Sweet grape essence with bright freshness.",
+                sairme_water_title: "SAIRME Mineral Waters",
+                sairme_water_text: "Sairme Mineral Waters, in Georgia's Imereti region, are waters that form in the deep layers of the earth, naturally enriched with carbon dioxide, and have a balanced composition with beneficial minerals like calcium, magnesium, sodium. Sairme water, rich with natural minerals and lightly carbonated, is an ideal choice for both daily drinking and a healthy lifestyle. We also present this unique mineral water to our customers in Azerbaijan.",
+                sairme_water_showcase_title: "SAIRME Waters",
+                sairme_water_showcase_subtitle: "Pure natural waters from the legendary Sairme springs",
+                sairme_spring_name: "Spring Water",
+                sairme_spring_desc: "Waters extracted from the deep layers of Georgia's famous therapeutic Sairme region, rich with minerals and preserving their natural freshness. Gives health and energy in every sip. Bottle types: Plastic: 2L, 1L, 0.5L; Glass: 0.2L, 0.5L; Premium glass: 0.5L.",
+                sairme_mineral_name: "Mineral Water",
+                sairme_mineral_desc: "Sairme mineral waters are known for their natural composition, rich minerals and high quality, considered beneficial for the organism. We present these pure and refreshing mineral waters to our customers in Azerbaijan with the highest quality. Bottle types: Plastic: 2L, 1L, 0.5L; Glass: 0.2L, 0.5L; Premium glass: 0.5L.",
+                about_heading: "About Turan SPS",
+                about_text: "Turan SPS is a leading company founded in 2024 and operating in the field of distribution of quality beverages and water products in Azerbaijan. As the official distributor of Georgia's Boom Group company, our company has exclusive sales rights for the most popular and beloved Chito Gvrito lemonades in our country. In addition, Turan SPS collaborates with the manufacturer of Georgia's famous Sairme therapeutic waters and is the only official distributor of this water in Azerbaijan. Sairme waters, rich with beneficial minerals for the organism, providing natural freshness, are presented to our customers in premium quality. Our company is also the official distributor of premium fruit juices from IRIB Group located in the Dagestan Autonomous Republic of Russia. IRIB juices are distinguished by natural fruit taste and high quality standards, presented to our customers in Azerbaijan thanks to Turan SPS. As Turan SPS, our goal is not only to provide products to our customers, but also to ensure natural taste, freshness and health in every sip. By bringing together the highest quality lemonades, fruit juices, therapeutic and natural spring waters in Azerbaijan, we strive to make every day more delicious and refreshing.",
+                contact_heading: "Contact & Order",
+                contact_note: "Contact us to place an order or get more information.",
+                contact_phone: "Phone / WhatsApp: +994 55 664 24 99",
+                contact_email: "Email: turansps.office@gmail.com",
+                label_name: "Name",
+                label_email: "Contact Email",
+                label_message: "Message",
+                submit_button: "Send",
+                footer_tagline: "Fresh Taste of Georgia",
+                footer_story: "Our Story",
+                footer_products: "Products",
+                footer_where: "Where to Buy",
+                footer_contact: "Contact",
+                footer_copyright: "Taste the freshness of Georgia."
+            },
+            az: {
+                nav_home: "Əsas", nav_products: "Məhsullar", nav_about: "Haqqında", nav_contact: "Əlaqə",
+                hero_title: "Təbiətdən Təzə", hero_subtitle: "Təbii Meyvə Esansı ilə Premium Gürcüstan İçkiləri",
+                banner_title: "Turan SPS",
+                banner_text: "Təbii dad və sağlamlıq dolu meyvə şirələri, müalicəvi mineral və bulaq suları,  ləzzətli limonadlar ilə hər gününüzü təravətli edin.",
+                showcase_title: "Çito Gvrito",
+                showcase_subtitle: "Təbii dadlar və ənənəvi reseptlərlə hazırlanmış orijinal Gürcü limonadı",
+                product1_name: "Çito Gvrito Düşes limonadı",
+                product1_desc: "Armud (düşes) ləzzəti ilə zəngin, təbii dadı və təravəti ilə hər qurtumda canlılıq verən qazlı içkidir. Şüşə tutumu: 0.5L. Qablaşdırma: Qutu (12 × 0.5L).",
+                product2_name: "Çito Gvrito Tərxun Limonadı",
+                product2_desc: "Təbii tərxun ləzzəti və qazlı təravəti ilə hər qurtumda unudulmaz ferahlıq verən içkidir. Şüşə tutumu: 0.5L. Qablaşdırma: Qutu (12 × 0.5L).",
+                tag_natural: "Təbii", tag_refreshing: "Təravətləndirici", tag_fruity: "Meyvəli",
+                tag_herbal: "Bitki", tag_aromatic: "Aromatik", tag_traditional: "Ənənəvi",
+                irib_title: "İRİB  Premium Şirələri",
+                irib_text: "İRİB  premium şirələri Dağıstanda istehsal olunan, təbii dadı və yüksək keyfiyyəti ilə seçilən meyvə şirələridir. Müasir istehsal texnologiyaları ilə hazırlanan İRİB məhsulları təravət və faydanı bir araya gətirir. İRİB şirələri Azərbaycanda müştərilərə təqdim olunur və gündəlik istifadəniz üçün ideal seçimdir.",
+                irib_showcase_title: "IRIB Şirələri və Nektarları",
+                irib_showcase_subtitle: "Ekoloji təmiz meyvələrdən hazırlanmış yüksək keyfiyyətli təbii şirələr və nektarlar",
+                product3_name: "Alma Şirəsi",
+                product3_desc: "Təbii alma dadı, təravət və keyfiyyətin bir araya gəldiyi mükəmməl seçimdir. ",
+                product4_name: "Ananas Şirəsi",
+                product4_desc: "100% təbii tərkibi və ekzotik dadı ilə gününüzə təravət qatır.",
+                product5_name: "Gilas Şirəsi",
+                product5_desc: "Zəngin gilas dadı və təravəti ilə hər qurtumda əsl ləzzət hissi yaradır .",
+                product6_name: "Multi Meyvə Şirəsi",
+                product6_desc: "Müxtəlif meyvələrin harmoniyası ilə zəngin dad və təravəti bir arada təqdim edir.",
+                product7_name: "Portağal Şirəsi",
+                product7_desc: "100% təbii portağal dadı ilə gününüzə təravət və enerji qatır.",
+                product8_name: "Şaftalı Şirəsi",
+                product8_desc: "100% təbii şaftalı dadı ilə yumşaq ləzzət və təravəti bir araya gətirir .",
+                sairme_lemonade_title: "SAIRME Limonad",
+                sairme_lemonade_text: "2017-ci ildən şirkət SAIRME LEMONADE istehsal edir. Yüksək keyfiyyətli Gürcüstan suyu ilə hazırlanır, büdcə seqmentində təklif olunur.",
+                sairme_lemonade_showcase_title: "SAIRME Limonadları",
+                sairme_lemonade_showcase_subtitle: "Gürcüstanın təmiz Sairme bulaqlarından təbii mineral əsaslı limonadlar. 0.5L şüşə şüşələrdə mövcuddur.",
+                sairme_pear_name: "Armud Limonadı",
+                sairme_pear_desc: "Təbii mineral suyu ilə zərif armud dadı.",
+                sairme_feijoa_name: "Feyxua Limonadı",
+                sairme_feijoa_desc: "Təravətləndirici dönüş ilə ekzotik feijoa dadı.",
+                sairme_tarragon_name: "Tərxun Limonadı",
+                sairme_tarragon_desc: "Unikal təcrübə üçün bitki tərxun dadı.",
+                sairme_grape_name: "Üzüm Limonadı",
+                sairme_grape_desc: "Parlaq təravətlə şirin üzüm essensiyası.",
+                sairme_water_title: "SAIRME Meneral Suları",
+                sairme_water_text: "Sairme Meneral Suları, Gürcüstanın Imereti bölgəsində,  yerin dərin qurşaqlarında formalaşaraq karbon‑dioksidlə təbii şəkildə zənginləşir və kalsium, maqnezium, natrium kimi faydalı minerallarla balanslı tərkibə malik sulardı. Təbii minerallarla zəngin və yüngül karbonlaşdırılmış Sairme suyu həm gündəlik içim üçün, həm də sağlam həyat tərzi üçün ideal seçimdir. Bu unikal mineral suyu Azərbaycanda da müştərilərimizə təqdim edirik:",
+                sairme_water_showcase_title: "SAIRME Suları",
+                sairme_water_showcase_subtitle: "Əfsanəvi Sairme bulaqlarından təmiz təbii sular",
+                sairme_spring_name: "Bulaq Suyu",
+                sairme_spring_desc: "Gürcüstanın məşhur müalicəvi Sairme bölgəsinin dərin qatlarından çıxan, minerallarla zəngin və təbii təravətini qoruyan sularıdır. Hər qurtumda sağlamlıq və enerji verir. Şüşə tipləri: Plastik: 2L, 1L, 0.5L; Şüşə: 0.2L, 0.5L; Premium şüşə: 0.5L.",
+                sairme_mineral_name: "Mineral Su",
+                sairme_mineral_desc: "Sairme mineral suları təbii tərkibi, zəngin mineralları və yüksək keyfiyyəti ilə tanınır, orqanizm üçün faydalı hesab edilir. Bu saf və təravətli mineral suları Azərbaycanda müştərilərimizə ən yüksək keyfiyyətlə təqdim edirik. Şüşə tipləri: Plastik: 2L, 1L, 0.5L; Şüşə: 0.2L, 0.5L; Premium şüşə: 0.5L.",
+                about_heading: "Turan SPS Haqqında",
+                about_text: "Turan SPS 2024-cü ildə yaradılmış və Azərbaycanda keyfiyyətli içki və su məhsullarının distribusiyası sahəsində fəaliyyət göstərən qabaqcıl şirkətdir. Şirkətimiz, Gürcüstanın Boom Group şirkətinin rəsmi distribütoru olaraq, ölkəmizdə ən populyar və sevilən Çito Gvrito limonadlarının eksklüziv satış hüququna malikdir. Bundan əlavə, Turan SPS Gürcüstanın məşhur Sairme müalicəvi sularının istehsalçısı ilə əməkdaşlıq edir və Azərbaycanda bu suyun tək rəsmi distribütorudur. Orqanizm üçün faydalı minerallarla zəngin, təbii təravət verən Sairme suları müştərilərimizə premium keyfiyyətdə təqdim olunur. Şirkətimiz həmçinin Rusiyanın Dağıstan Muxtar Respublikasında yerləşən IRIB Groupun premium meyvə şirələrinin rəsmi distribütorudur. IRIB şirələri təbii meyvə dadı və yüksək keyfiyyət standartları ilə seçilir, Turan SPS sayəsində Azərbaycanda müştərilərimizə təqdim olunur. Biz Turan SPS olaraq məqsədimiz müştərilərimizə yalnız məhsul təqdim etmək deyil, həm də hər qurtumda təbii dad, təravət və sağlamlıq təmin etməkdir. Azərbaycanda ən keyfiyyətli limonadlar, meyvə şirələri, müalicəvi və təbii bulaq sularını müştərilərimizlə bir araya gətirərək, hər gününüzü daha ləzzətli və təravətli etməyə çalışırıq.",
+                contact_heading: "Əlaqə və Sifariş",
+                contact_note: "Sifariş vermək və ya daha çox məlumat əldə etmək üçün bizimlə əlaqə saxlayın.",
+                contact_phone: "Telefon / WhatsApp: +994 55 664 24 99",
+                contact_email: "Email: turansps.office@gmail.com",
+                label_name: "Ad",
+                label_email: "Əlaqə Email",
+                label_message: "Mesaj",
+                submit_button: "Göndər",
+                footer_tagline: "Gürcüstanın Təzə Dadı", footer_story: "Bizim Hekayə", footer_products: "Məhsullar",
+                footer_where: "Harada Almaq Olar", footer_contact: "Əlaqə", footer_copyright: "Gürcüstanın təravətini dadın."
+            },
+            ru: {
+                nav_home: "Главная",
+                nav_products: "Продукты",
+                nav_about: "О нас",
+                nav_contact: "Контакты",
+                hero_title: "Свежий из Природы",
+                hero_subtitle: "Премиальные Грузинские Напитки с Натуральной Фруктовой Эссенцией",
+                banner_title: "Turan SPS",
+                banner_text: "Сделайте каждый день освежающим с натуральным вкусом и полезными фруктовыми соками, лечебными минеральными и родниковыми водами, вкусными лимонадами.",
+                showcase_title: "Чито Гврито",
+                showcase_subtitle: "Оригинальный грузинский лимонад, приготовленный с натуральными вкусами и традиционными рецептами",
+                product1_name: "Чито Гврито Дюшес Лимонад",
+                product1_desc: "Газированный напиток, богатый вкусом груши (дюшес), натуральным вкусом и свежестью, который дарит жизненную силу в каждом глотке. Емкость бутылки: 0.5L. Упаковка: Коробка (12 × 0.5L).",
+                product2_name: "Чито Гврито Тархун Лимонад",
+                product2_desc: "Напиток, который дарит незабываемую свежесть в каждом глотке с натуральным вкусом тархуна и газированной свежестью. Емкость бутылки: 0.5L. Упаковка: Коробка (12 × 0.5L).",
+                tag_natural: "Натуральный",
+                tag_refreshing: "Освежающий",
+                tag_fruity: "Фруктовый",
+                tag_herbal: "Травяной",
+                tag_aromatic: "Ароматный",
+                tag_traditional: "Традиционный",
+                irib_title: "IRIB Премиум Соки",
+                irib_text: "IRIB премиум соки - это фруктовые соки, производимые в Дагестане, отличающиеся натуральным вкусом и высоким качеством. Продукты IRIB, приготовленные с использованием современных технологий производства, сочетают свежесть и пользу. Соки IRIB представлены клиентам в Азербайджане и являются идеальным выбором для вашего ежедневного использования.",
+                irib_showcase_title: "Соки и Нектары IRIB",
+                irib_showcase_subtitle: "Высококачественные натуральные соки и нектары, приготовленные из экологически чистых фруктов",
+                product3_name: "Яблочный Сок",
+                product3_desc: "Идеальный выбор, где натуральный яблочный вкус, свежесть и качество сочетаются вместе.",
+                product4_name: "Ананасовый Сок",
+                product4_desc: "Добавляет свежести вашему дню с 100% натуральным составом и экзотическим вкусом.",
+                product5_name: "Вишневый Сок",
+                product5_desc: "Создает настоящее вкусовое ощущение в каждом глотке с богатым вишневым вкусом и свежестью.",
+                product6_name: "Мультифруктовый Сок",
+                product6_desc: "Представляет богатый вкус и свежесть вместе с гармонией различных фруктов.",
+                product7_name: "Апельсиновый Сок",
+                product7_desc: "Добавляет свежести и энергии вашему дню с 100% натуральным апельсиновым вкусом.",
+                product8_name: "Персиковый Сок",
+                product8_desc: "Сочетает мягкий вкус и свежесть с 100% натуральным персиковым вкусом.",
+                sairme_lemonade_title: "SAIRME Лимонад",
+                sairme_lemonade_text: "С 2017 года компания производит SAIRME LEMONADE. Приготовлен с высококачественной грузинской водой, предлагается в бюджетном сегменте.",
+                sairme_lemonade_showcase_title: "Лимонады SAIRME",
+                sairme_lemonade_showcase_subtitle: "Натуральные лимонады на минеральной основе из чистых источников Сайрме в Грузии. Доступны в стеклянных бутылках 0.5L.",
+                sairme_pear_name: "Грушевый Лимонад",
+                sairme_pear_desc: "Нежный грушевый вкус с натуральной минеральной водой.",
+                sairme_feijoa_name: "Фейхоа Лимонад",
+                sairme_feijoa_desc: "Экзотический вкус фейхоа с освежающим поворотом.",
+                sairme_tarragon_name: "Тархун Лимонад",
+                sairme_tarragon_desc: "Травяной вкус тархуна для уникального опыта.",
+                sairme_grape_name: "Виноградный Лимонад",
+                sairme_grape_desc: "Сладкая эссенция винограда с яркой свежестью.",
+                sairme_water_title: "SAIRME Минеральные Воды",
+                sairme_water_text: "SAIRME Минеральные Воды, в Имеретинском регионе Грузии, формируются в глубоких слоях земли, естественно обогащаются углекислым газом и имеют сбалансированный состав с полезными минералами, такими как кальций, магний, натрий. Вода SAIRME, богатая натуральными минералами и слегка газированная, является идеальным выбором как для ежедневного питья, так и для здорового образа жизни. Мы также представляем эту уникальную минеральную воду нашим клиентам в Азербайджане.",
+                sairme_water_showcase_title: "Воды SAIRME",
+                sairme_water_showcase_subtitle: "Чистые натуральные воды из легендарных источников Сайрме",
+                sairme_spring_name: "Родниковая Вода",
+                sairme_spring_desc: "Воды, извлеченные из глубоких слоев знаменитого лечебного региона Сайрме в Грузии, богатые минералами и сохраняющие свою натуральную свежесть. Дают здоровье и энергию в каждом глотке. Типы бутылок: Пластик: 2L, 1L, 0.5L; Стекло: 0.2L, 0.5L; Премиум стекло: 0.5L.",
+                sairme_mineral_name: "Минеральная Вода",
+                sairme_mineral_desc: "Минеральные воды SAIRME известны своим натуральным составом, богатыми минералами и высоким качеством, считаются полезными для организма. Мы представляем эти чистые и освежающие минеральные воды нашим клиентам в Азербайджане с высочайшим качеством. Типы бутылок: Пластик: 2L, 1L, 0.5L; Стекло: 0.2L, 0.5L; Премиум стекло: 0.5L.",
+                about_heading: "О Turan SPS",
+                about_text: "Turan SPS - ведущая компания, основанная в 2024 году и работающая в сфере дистрибуции качественных напитков и водных продуктов в Азербайджане. Как официальный дистрибьютор компании Boom Group из Грузии, наша компания обладает эксклюзивными правами на продажу самых популярных и любимых лимонадов Chito Gvrito в нашей стране. Кроме того, Turan SPS сотрудничает с производителем знаменитых лечебных вод Sairme из Грузии и является единственным официальным дистрибьютором этой воды в Азербайджане. Воды Sairme, богатые полезными минералами для организма, обеспечивающие натуральную свежесть, представлены нашим клиентам в премиум-качестве. Наша компания также является официальным дистрибьютором премиум фруктовых соков от IRIB Group, расположенной в Дагестанской Автономной Республике России. Соки IRIB отличаются натуральным фруктовым вкусом и высокими стандартами качества, представлены нашим клиентам в Азербайджане благодаря Turan SPS. Как Turan SPS, наша цель - не только предоставлять продукты нашим клиентам, но и обеспечивать натуральный вкус, свежесть и здоровье в каждом глотке. Объединяя в Азербайджане лимонады, фруктовые соки, лечебные и натуральные родниковые воды высшего качества, мы стремимся сделать каждый ваш день более вкусным и освежающим.",
+                contact_heading: "Контакты и Заказ",
+                contact_note: "Свяжитесь с нами, чтобы разместить заказ или получить дополнительную информацию.",
+                contact_phone: "Телефон / WhatsApp: +994 55 664 24 99",
+                contact_email: "Email: turansps.office@gmail.com",
+                label_name: "Имя",
+                label_email: "Контактный Email",
+                label_message: "Сообщение",
+                submit_button: "Отправить",
+                footer_tagline: "Свежий Вкус Грузии",
+                footer_story: "Наша История",
+                footer_products: "Продукты",
+                footer_where: "Где Купить",
+                footer_contact: "Контакты",
+                footer_copyright: "Попробуйте свежесть Грузии."
+            },
+            ka: {
+                nav_home: "მთავარი",
+                nav_products: "პროდუქტები",
+                nav_about: "ჩვენ შესახებ",
+                nav_contact: "კონტაქტი",
+                hero_title: "ახალი ბუნებიდან",
+                hero_subtitle: "პრემიუმ ქართული სასმელები ბუნებრივი ხილის ესენციით",
+                banner_title: "Turan SPS",
+                banner_text: "გახადეთ ყველა დღე გამაგრილებელი ბუნებრივი გემოთი და ჯანსაღი ხილის წვენებით, თერაპიული მინერალური და წყაროს წყლებით, გემრიელი ლიმონათებით.",
+                showcase_title: "ჩიტო გვრიტო",
+                showcase_subtitle: "ორიგინალური ქართული ლიმონათი, მომზადებული ბუნებრივი არომატებით და ტრადიციული რეცეპტებით",
+                product1_name: "ჩიტო გვრიტო დუშეს ლიმონათი",
+                product1_desc: "გაზიანი სასმელი, მდიდარი მსხლის (დუშეს) არომატით, ბუნებრივი გემოთი და სიახლით, რომელიც აძლევს სიცოცხლისუნარიანობას ყველა წრუპში. ბოთლის ტევადობა: 0.5L. შეფუთვა: ყუთი (12 × 0.5L).",
+                product2_name: "ჩიტო გვრიტო ტარხუნის ლიმონათი",
+                product2_desc: "სასმელი, რომელიც აძლევს დაუვიწყარ სიახლეს ყველა წრუპში ბუნებრივი ტარხუნის არომატით და გაზიანი სიახლით. ბოთლის ტევადობა: 0.5L. შეფუთვა: ყუთი (12 × 0.5L).",
+                tag_natural: "ნატურალური",
+                tag_refreshing: "გამაგრილებელი",
+                tag_fruity: "ხილოვანი",
+                tag_herbal: "მცენარეული",
+                tag_aromatic: "არომატული",
+                tag_traditional: "ტრადიციული",
+                irib_title: "IRIB პრემიუმ წვენები",
+                irib_text: "IRIB პრემიუმ წვენები არის ხილის წვენები, წარმოებული დაგესტანში, გამორჩეული ბუნებრივი გემოთი და მაღალი ხარისხით. IRIB პროდუქტები, მომზადებული თანამედროვე წარმოების ტექნოლოგიებით, აერთიანებს სიახლეს და სარგებელს. IRIB წვენები წარმოდგენილია მომხმარებლებისთვის აზერბაიჯანში და არის იდეალური არჩევანი თქვენი ყოველდღიური გამოყენებისთვის.",
+                irib_showcase_title: "IRIB წვენები და ნექტარები",
+                irib_showcase_subtitle: "მაღალი ხარისხის ბუნებრივი წვენები და ნექტარები, მომზადებული ეკოლოგიურად სუფთა ხილიდან",
+                product3_name: "ვაშლის წვენი",
+                product3_desc: "იდეალური არჩევანი, სადაც ბუნებრივი ვაშლის გემო, სიახლე და ხარისხი ერთად იკრიბება.",
+                product4_name: "ანანასის წვენი",
+                product4_desc: "ამატებს სიახლეს თქვენს დღეს 100% ბუნებრივი შემადგენლობით და ეგზოტიკური გემოთი.",
+                product5_name: "ალუბლის წვენი",
+                product5_desc: "ქმნის ნამდვილ გემოვნურ შეგრძნებას ყველა წრუპში მდიდარი ალუბლის გემოთი და სიახლით.",
+                product6_name: "მულტი ხილის წვენი",
+                product6_desc: "წარმოგიდგენთ მდიდარ გემოს და სიახლეს ერთად სხვადასხვა ხილის ჰარმონიით.",
+                product7_name: "ფორთოხლის წვენი",
+                product7_desc: "ამატებს სიახლეს და ენერგიას თქვენს დღეს 100% ბუნებრივი ფორთოხლის გემოთი.",
+                product8_name: "ატმის წვენი",
+                product8_desc: "აერთიანებს რბილ გემოს და სიახლეს 100% ბუნებრივი ატმის გემოთი.",
+                sairme_lemonade_title: "საირმე ლიმონათი",
+                sairme_lemonade_text: "კომპანია 2017 წლიდან აწარმოებს SAIRME LEMONADE. მომზადებული მაღალი ხარისხის ქართული წყლით, შეთავაზებული ბიუჯეტურ სეგმენტში.",
+                sairme_lemonade_showcase_title: "საირმე ლიმონათები",
+                sairme_lemonade_showcase_subtitle: "ბუნებრივი მინერალური დაფუძნებული ლიმონათები საქართველოს სუფთა საირმის წყაროებიდან. ხელმისაწვდომია 0.5L მინის ბოთლებში.",
+                sairme_pear_name: "მსხლის ლიმონათი",
+                sairme_pear_desc: "დელიკატური მსხლის გემო ბუნებრივი მინერალური წყლით.",
+                sairme_feijoa_name: "ფეიხოას ლიმონათი",
+                sairme_feijoa_desc: "ეგზოტიკური ფეიხოას გემო გამაგრილებელი ტრიალით.",
+                sairme_tarragon_name: "ტარხუნის ლიმონათი",
+                sairme_tarragon_desc: "მცენარეული ტარხუნის გემო უნიკალური გამოცდილებისთვის.",
+                sairme_grape_name: "ყურძნის ლიმონათი",
+                sairme_grape_desc: "ტკბილი ყურძნის ესენცია ნათელი სიახლით.",
+                sairme_water_title: "საირმე მინერალური წყლები",
+                sairme_water_text: "საირმე მინერალური წყლები, საქართველოს იმერეთის რეგიონში, წარმოიქმნება დედამიწის ღრმა ფენებში, ბუნებრივად მდიდარია ნახშირორჟანგით და აქვს დაბალანსებული შემადგენლობა სასარგებლო მინერალებით, როგორიცაა კალციუმი, მაგნიუმი, ნატრიუმი. წყალი საირმე, მდიდარი ბუნებრივი მინერალებით და მსუბუქად გაზიანი, არის იდეალური არჩევანი როგორც ყოველდღიური სმისთვის, ასევე ჯანსაღი ცხოვრების წესისთვის. ჩვენ ასევე წარმოგიდგენთ ამ უნიკალურ მინერალურ წყალს ჩვენს მომხმარებლებს აზერბაიჯანში.",
+                sairme_water_showcase_title: "საირმე წყლები",
+                sairme_water_showcase_subtitle: "სუფთა ბუნებრივი წყლები ლეგენდარული საირმის წყაროებიდან",
+                sairme_spring_name: "წყაროს წყალი",
+                sairme_spring_desc: "წყლები, ამოღებული საქართველოს ცნობილი თერაპიული საირმის რეგიონის ღრმა ფენებიდან, მდიდარი მინერალებით და შენარჩუნებული ბუნებრივი სიახლით. აძლევს ჯანმრთელობას და ენერგიას ყველა წრუპში. ბოთლის ტიპები: პლასტიკური: 2L, 1L, 0.5L; მინა: 0.2L, 0.5L; პრემიუმ მინა: 0.5L.",
+                sairme_mineral_name: "მინერალური წყალი",
+                sairme_mineral_desc: "საირმე მინერალური წყლები ცნობილია ბუნებრივი შემადგენლობით, მდიდარი მინერალებით და მაღალი ხარისხით, ითვლება სასარგებლოდ ორგანიზმისთვის. ჩვენ წარმოგიდგენთ ამ სუფთა და გამაგრილებელ მინერალურ წყლებს ჩვენს მომხმარებლებს აზერბაიჯანში უმაღლესი ხარისხით. ბოთლის ტიპები: პლასტიკური: 2L, 1L, 0.5L; მინა: 0.2L, 0.5L; პრემიუმ მინა: 0.5L.",
+                about_heading: "Turan SPS-ის შესახებ",
+                about_text: "Turan SPS არის წამყვანი კომპანია, დაარსებული 2024 წელს და მოქმედებს ხარისხიანი სასმელების და წყლის პროდუქტების დისტრიბუციის სფეროში აზერბაიჯანში. როგორც საქართველოს Boom Group კომპანიის ოფიციალური დისტრიბუტორი, ჩვენი კომპანია ფლობს ექსკლუზიურ გაყიდვის უფლებებს ყველაზე პოპულარული და საყვარელი ჩიტო გვრიტო ლიმონათებისთვის ჩვენს ქვეყანაში. გარდა ამისა, Turan SPS თანამშრომლობს საქართველოს ცნობილი საირმე თერაპიული წყლების მწარმოებელთან და არის ამ წყლის ერთადერთი ოფიციალური დისტრიბუტორი აზერბაიჯანში. საირმე წყლები, მდიდარი სასარგებლო მინერალებით ორგანიზმისთვის, რომლებიც უზრუნველყოფენ ბუნებრივ სიახლეს, წარმოდგენილია ჩვენს მომხმარებლებს პრემიუმ ხარისხით. ჩვენი კომპანია ასევე არის რუსეთის დაგესტანის ავტონომიურ რესპუბლიკაში მდებარე IRIB Group-ის პრემიუმ ხილის წვენების ოფიციალური დისტრიბუტორი. IRIB წვენები გამორჩეულია ბუნებრივი ხილის გემოთი და მაღალი ხარისხის სტანდარტებით, წარმოდგენილია ჩვენს მომხმარებლებს აზერბაიჯანში Turan SPS-ის წყალობით. როგორც Turan SPS, ჩვენი მიზანი არის არა მხოლოდ პროდუქტების მიწოდება ჩვენს მომხმარებლებს, არამედ უზრუნველყოფა ბუნებრივი გემო, სიახლე და ჯანმრთელობა ყველა წრუპში. აზერბაიჯანში უმაღლესი ხარისხის ლიმონათების, ხილის წვენების, თერაპიული და ბუნებრივი წყაროს წყლების გაერთიანებით, ჩვენ ვცდილობთ გავხადოთ თქვენი ყველა დღე უფრო გემრიელი და გამაგრილებელი.",
+                contact_heading: "კონტაქტი და შეკვეთა",
+                contact_note: "დაგვიკავშირდით შეკვეთის განთავსებისთვის ან მეტი ინფორმაციის მისაღებად.",
+                contact_phone: "ტელეფონი / WhatsApp: +994 55 664 24 99",
+                contact_email: "Email: turansps.office@gmail.com",
+                label_name: "სახელი",
+                label_email: "კონტაქტის Email",
+                label_message: "შეტყობინება",
+                submit_button: "გაგზავნა",
+                footer_tagline: "საქართველოს ახალი გემო",
+                footer_story: "ჩვენი ამბავი",
+                footer_products: "პროდუქტები",
+                footer_where: "სად ვიყიდოთ",
+                footer_contact: "კონტაქტი",
+                footer_copyright: "გასინჯეთ საქართველოს სიახლე."
+            }
+        };
+
+        let currentLang = 'en';
+
+        // Language switching
+        const langBtn = document.getElementById('langBtn');
+        const langDropdown = document.getElementById('langDropdown');
+        const langOptions = document.querySelectorAll('.lang-option');
+
+        langBtn.addEventListener('click', () => {
+            langDropdown.classList.toggle('show');
+        });
+
+        langOptions.forEach(option => {
+            option.addEventListener('click', (e) => {
+                e.preventDefault();
+                const lang = option.getAttribute('data-lang');
+                switchLanguage(lang);
+                langDropdown.classList.remove('show');
+            });
+        });
+
+        function switchLanguage(lang) {
+            currentLang = lang;
+            const langNames = {en: 'EN', az: 'AZ', ru: 'RU', ka: 'KA'};
+            langBtn.textContent = langNames[lang] + ' ▼';
+            
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.language-selector')) {
+                langDropdown.classList.remove('show');
+            }
+        });
+
+        // Parallax effect
+        const parallaxContainer = document.getElementById('parallaxContainer');
+        const parallaxLayers = document.querySelectorAll('.parallax-layer');
+
+        parallaxContainer.addEventListener('mousemove', (e) => {
+            const rect = parallaxContainer.getBoundingClientRect();
+            const x = (e.clientX - rect.left - rect.width / 2) / rect.width;
+            const y = (e.clientY - rect.top - rect.height / 2) / rect.height;
+
+            parallaxLayers.forEach(layer => {
+                const depth = parseFloat(layer.getAttribute('data-depth')) || 0.1;
+                const moveX = x * 50 * depth;
+                const moveY = y * 50 * depth;
+                layer.style.transform = `translate(${moveX}px, ${moveY}px)`;
+            });
+        });
+
+        parallaxContainer.addEventListener('mouseleave', () => {
+            parallaxLayers.forEach(layer => {
+                layer.style.transform = 'translate(0, 0)';
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.brand-banner-section, .about-section, .product-item, .contact-section').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
